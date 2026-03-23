@@ -1,0 +1,159 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    
+}
+
+#main{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#side{
+    text-align: center;
+    width: 40vw;
+    margin-top: 0;
+    min-height: 30rem;
+    background-color: #afb0b1;
+    background-image: url('https://img.freepik.com/free-vector/paper-style-light-blue-wavy-background_23-2149112996.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+#side h1{
+    margin: 2rem;
+    justify-content: center;
+}
+#homeform{
+
+    align-items: center;
+    justify-content: space-evenly; 
+    width: 8rem;
+
+} 
+#home{
+    text-align: left;
+    color:black ;
+    font-weight: bold;
+    margin-top: 0;
+    width: 40vw;
+    min-height: 30rem;
+    padding: 8vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTNbT-zPXMUuKijiaFwanBN_JJ0UVRheE_NA&s');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#home.Link{
+    height: 40px;
+    width: 100px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+input{
+    height: 40px;
+    justify-content: space-between;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+header{
+    position:static;
+}
+nav{
+  background-color: #e7eaf1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 3vw 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #bbc1d2;
+    color: rgb(24, 22, 22);
+    text-align: center;
+    padding: 1rem;
+}
+#contact{
+    text-align: left;
+    margin-top: 5rem;
+    margin: 7vw ;
+    padding: 2vw;
+}
+#contact form{
+    display: block;
+    margin-top: 2rem;
+}
+#loginform{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10lh;
+    padding: 4vh;
+    justify-content: space-evenly; 
+    height: 20rem;
+    width: 10rem;
+    text-align: center;
+
+
+}
+.products-container{
+    /* margin-top: 100px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,auto));
+    gap:4rem;
+    /* margin-left:2rem; */
+    padding: 5rem 0;
+    margin: 5rem;
+
+}
+.cart-page{
+    margin: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+}
+.total{
+    display: flex;
+    padding: 5rem;
+}
+.checkout{
+    width: 50px;
+
+}
