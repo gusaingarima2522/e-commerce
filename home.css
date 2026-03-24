@@ -1,0 +1,23 @@
+@keyframes swap {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(180px); }
+  100% { transform: translateX(0); }
+}
+
+/* LEFT BOX */
+#home {
+  animation: swap 5s infinite;
+}
+
+/* RIGHT BOX (reverse direction) */
+/* #side {
+  animation: swap 3s infinite reverse;
+} */
+#main {
+    padding: 20px;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
