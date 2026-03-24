@@ -1,12 +1,12 @@
 @keyframes swap {
   0%   { transform: translateX(0); }
-  50%  { transform: translateX(220px); }
+  50%  { transform: translateX(180px); }
   100% { transform: translateX(0); }
 }
 
 /* LEFT BOX */
 #home {
-  animation: swap 3s infinite;
+  animation: swap 5s infinite;
 }
 
 /* RIGHT BOX (reverse direction) */
